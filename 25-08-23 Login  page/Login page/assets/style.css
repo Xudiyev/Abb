@@ -113,3 +113,8 @@ label {
     color: white;
     text-decoration: none;
 }
+
+#twitterBtn:hover{
+    transition: 0.2s;
+    background-color: rgb(13, 115, 174) !important;
+}
