@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+    background-image: url(./bacground-img/pexels-photo-831552.jpeg);
+    background-size: cover;
+}
+
+fieldset {
+    width: 440px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    background-color: fbfdfe;
+    /* font */
+    opacity: 0.902;
+    font-size: 18px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-left: 19px;
+
+}
+
+input[type=email]:focus {
+    outline: 1px solid rgb(0, 183, 255);
+}
+
+input[type=password]:focus {
+    outline: 1px solid rgb(0, 183, 255);
+}
+
+h2 {
+    font: bold 24px "Open Sans", sans-serif;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    padding: 30px 0px 30px 150px;
+}
+
+label {
+    margin-top: 15px;
+    opacity: 0.8;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+
+.submit {
+    width: 100%;
+    margin-top: 20px;
+    background: dodgerblue;
+    color: white;
+}
+
+.submit:hover {
+    background-color: rgb(41, 177, 0);
+    transition: 0.5s;
+}
+
+#checkBox {
+    width: 20px;
+    height: 15px;
+}
+
+#support {
+    margin-top: 30px;
+    align-items: center;
+}
+
+#support a {
+    text-decoration: none;
+    color: rgba(10, 3, 3, 0.911);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#support a:hover {
+    color: rgba(199, 28, 57, 0.911);
+    transition: 0.5s;
+
+
+}
+
+.btn-primary {
+    border-radius: 4px !important;
+    width: 195px;
+    margin-top: 30px;
+}
+
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+}

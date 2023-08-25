@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <form action="/userinfo" method="post">
+        <fieldset>
+            <div class="container">
+                <h2>Sign in</h2>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" class="email-input" placeholder="Your email address"
+                    required="required" />
+                <br>
+
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" class="password-input" placeholder="******" required="required">
+                <br>
+
+                <div class="row" id="support">
+                    <div class="col-9">
+                        <input type="checkbox" id="checkBox">
+                        <label style="margin: 0px !important; text-transform: none;" class="rememberME" for="checkBox">Remember me</label>
+                    </div>
+                    <div class="col-3">
+                        <a style="font-family: Open Sans; font-size: 17px !important" href="">Forgot ?</a>
+                    </div>
+                </div>
+
+                <br>
+                <input class="submit" type="submit">
+
+                <div class="row">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <a href="https://m.facebook.com/login/?locale=ru_RU&refsrc=deprecated "><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+
+                        </button>
+                           
+                    </div>
+                    <div class="col-6">
+                        <button style="background-color: #00aaf4; border-color: #00aaf4;" type="button" class="btn btn-primary btn-lg"> <a href="https://twitter.com/?lang=ru "><i
+                                    class="fa-brands fa-twitter"></i></a>
+                        </button>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

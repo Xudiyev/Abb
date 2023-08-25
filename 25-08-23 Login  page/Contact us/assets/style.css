@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/uww09q6be29b1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+fieldset .container {
+    max-width: 390px;
+    margin: auto;
+}
+
+/* First Fieldset content Start*/
+fieldset {
+    width: 440px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 39.4%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(32, 37, 54);
+    border-radius: 5px;
+}
+
+fieldset h3 {
+    color: white;
+    margin-top: 30px;
+}
+
+#nameInput {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: rgb(48, 44, 59);
+    background-color: rgb(32, 37, 54);
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    color: rgb(190, 148, 30);
+
+
+}
+
+#nameInput::placeholder {
+    color: rgb(190, 148, 30);
+}
+
+#story {
+    background-color: rgb(32, 37, 54);
+    margin-top: 30px;
+    color: rgb(190, 148, 30);
+
+    border: 2px solid rgb(71, 65, 87);
+}
+
+#story::placeholder {
+    color: rgb(190, 148, 30);
+
+}
+
+input:focus {
+    outline: 0px;
+}
+textarea:focus{
+    outline: 0px;
+
+}
+#sendBtn{
+    width: 140px;
+    height: 45px;
+    color: white;
+    background-color: #ff9b54;
+    border: 0px solid #ff9b54;
+    border-radius: 2px;
+    margin-top: 20px;
+    
+}
+
+
+/* First Fieldset content End* /
+
+
+
+
+/* Second Fieldset Content Start */
+.secondFieldset {
+    width: 440px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(8, 6, 12);
+    border-radius: 5px;
+}
+.secondFieldset p{
+  color: grey;
+}
+
+.secondFieldset .AllInformation{
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+.secondFieldset .location{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(32, 37, 54);
+    position: relative;
+    margin-right: 15px;
+}
+
+.secondFieldset .location i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.AllInformation{
+    margin-bottom: 40px;
+}
+
+.AllInformation p{
+    margin: 0px!important;
+}
+/* Second Fieldset Content End */
